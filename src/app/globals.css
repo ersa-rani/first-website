@@ -2,26 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.website {
+  background-color: rgb(11, 160, 43);
+    color: rgb(230, 229, 233);
+    text-align: center;
+    
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+ul li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    gap:40px ;
+    font-size: 20px;
+    padding: 9px 12px;
+margin-left:200px;
+
+}
+.home{
+  color: black;
+  font-size: 50px;
+  margin-left: 300px;
+  vertical-align: bottom;
+  background-color: rgb(237, 238, 237);
+  display: inline-block;
+
+
+  
+  
+}
+.Xhome{
+  text-align: center;
+  
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.about{
+  color: black;
+  font-size: 50px;
+  margin-left: 10px;
+  vertical-align: bottom;
+  background-color: rgb(237, 238, 237);
+  display: inline-block;
+
+
+  
+  
+}
+.xabout{
+  text-align: center;
+  
+}
+.contact{
+  color: black;
+  font-size: 50px;
+  margin-left: 10px;
+  vertical-align: bottom;
+  background-color: rgb(237, 238, 237);
+  display: inline-block;
+
+
+  
+  
+}
+.xcontact{
+  text-align: center;
+  
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.jobs{
+  color: black;
+  font-size: 50px;
+  margin-left: 10px;
+  vertical-align: bottom;
+  background-color: rgb(237, 238, 237);
+  display: inline-block;
+
+
+  
+  
+}
+.xjobs{
+  text-align: center;
+  
 }
